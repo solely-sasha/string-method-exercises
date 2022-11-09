@@ -1,5 +1,13 @@
 // 1. Write a function that takes a string as a parameter and returns the same string in all capital letters followed by all lowercase letters.
 
+function upperAndLowerCase(string){
+   var upperCase = string.toUpperCase()
+   var lowerCase = string.toLowerCase()
+   var bigToLittle = upperCase.concat(lowerCase)
+   
+console.log(bigToLittle)
+}
+upperAndLowerCase("success")
 // 2. Write a function that takes a string as a parameter and returns a number that is half the string's length, rounded down.
 
 
